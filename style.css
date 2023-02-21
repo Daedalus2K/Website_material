@@ -1,6 +1,7 @@
 body {
     background: #ffdab9;
-    font-family: "BodoniXT"; 
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    /*font-family: "BodoniXT";*/ 
 }
 
 /*h1 {
