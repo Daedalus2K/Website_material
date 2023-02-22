@@ -8,9 +8,19 @@ body {
      /*font-family: "BodoniXT";*/ 
 }
 
-div   {
-    border-color: #FFFDD0;
+div.intro    {
+    border-color: #FFBF00;
     border-style: ridge;
-    padding: 35px 35px 35px 35px;
+    border-width: 3px;
     background: white;
+    text-align: center;
+    width: 400px ;
 }
+
+/*figure > .images {
+    border: 2px outset #F08000;
+    border-radius: 5px;
+    max-width: 100px;
+    max-height: 100px;
+}
+*/
