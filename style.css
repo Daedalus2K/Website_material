@@ -9,7 +9,7 @@ body {
 }
 
 div.intro    {
-    border-color: #FFBF00;
+    border-color: #B9FFFD;
     border-style: ridge;
     border-width: 3px;
     background: white;
@@ -24,3 +24,17 @@ div.intro    {
     max-height: 100px;
 }
 */
+
+.Data_table {
+    background-color: #B9FFDA;
+    max-width: fit-content;
+}
+
+
+table   {
+    table-layout: auto; 
+}
+
+th, td  {
+    border: 1px ridge #FFB9DE;
+}
