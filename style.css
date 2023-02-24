@@ -15,6 +15,7 @@ div.intro    {
     background: white;
     text-align: center;
     width: 400px ;
+    margin: auto;
 }
 
 /*figure > .images {
@@ -25,16 +26,32 @@ div.intro    {
 }
 */
 
-.Data_table {
-    background-color: #B9FFDA;
+.Image_Block {
+    text-align: center;
+    margin: auto;
+    background: white;
+    border: 1px solid #BBFFB9;
     max-width: fit-content;
 }
 
+.Data_table {
+    background-color: #B9FFDA;
+    max-width: fit-content;
+    margin: auto;
+}
 
 table   {
     table-layout: auto; 
 }
 
 th, td  {
-    border: 1px ridge #FFB9DE;
+    border: 2px solid #FFB9DE;
+}
+
+footer  {
+    background-color: #FFF6ED;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
 }
