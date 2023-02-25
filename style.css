@@ -34,6 +34,24 @@ div.intro    {
     max-width: fit-content;
 }
 
+#image1 {
+    width: 100px;
+    height: 100px;
+    object-fit: contain
+}
+
+#image2 {
+    width: 100px;
+    height: 100px;
+    object-fit: contain
+}
+
+#image3 {
+    width: 100px;
+    height: 100px;
+    object-fit: contain
+}
+
 .Data_table {
     background-color: #B9FFDA;
     max-width: fit-content;
