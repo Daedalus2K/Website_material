@@ -1,8 +1,22 @@
 h1  {
     text-align: center;
+    color:#B9FFDA;
+    margin: auto
 }
 
-body {
+#bkgrd-header   {
+    width: 100%;
+    height: 40px;
+    background: url(./images/Rising-Sun.jpg);
+    object-fit: contain;
+}
+
+header  {
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+
+body    {
     background: #ffdab9;
     font-family: Georgia, 'Times New Roman', Times, serif ;
      /*font-family: "BodoniXT";*/ 
@@ -71,5 +85,6 @@ footer  {
     position: fixed;
     bottom: 0px;
     right: 0px;
-    margin: auto;
+    height: 40px;
+    margin: 10px;
 }
