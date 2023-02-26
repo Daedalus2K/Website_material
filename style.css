@@ -1,26 +1,37 @@
+@font-face {
+    font-family: 'BodoniXT';
+    src: url('BodoniXT.woff2') format('woff2'),
+        url('BodoniXT.woff') format('woff'),
+        url('BodoniXT.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 h1  {
     text-align: center;
-    color:#B9FFDA;
+    color:#605245;
     margin: auto
 }
 
 #bkgrd-header   {
     width: 100%;
     height: 40px;
-    background: url(./images/Rising-Sun.jpg);
+    background: url(./images/Rising\ Sun_cropped.jpg);
     object-fit: contain;
 }
 
+
 header  {
     margin-right: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
+
 
 body    {
     background: #ffdab9;
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-     /*font-family: "BodoniXT";*/ 
+     font-family: "BodoniXT"; 
 }
+
 
 div.intro    {
     border-color: #B9FFFD;
@@ -30,40 +41,36 @@ div.intro    {
     text-align: center;
     width: 400px ;
     margin: auto;
+    margin-bottom: 10px;
 }
 
-/*figure > .images {
-    border: 2px outset #F08000;
-    border-radius: 5px;
-    max-width: 100px;
-    max-height: 100px;
-}
-*/
 
 .Image_Block {
     text-align: center;
-    margin: auto;
     background: white;
     border: 1px solid #BBFFB9;
-    max-width: fit-content;
+    max-width: max-content;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 #image1 {
-    width: 100px;
-    height: 100px;
-    object-fit: contain
+    width: 150px;
+    height: 84px;
+    object-fit: contain;
 }
 
 #image2 {
-    width: 100px;
-    height: 100px;
-    object-fit: contain
+    width: 150px;
+    height: 84px;
+    object-fit: contain;
 }
 
 #image3 {
-    width: 100px;
-    height: 100px;
-    object-fit: contain
+    width: 150px;
+    height: 84px;
+    object-fit: contain;
 }
 
 .Data_table {
