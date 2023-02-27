@@ -3,7 +3,7 @@
     src: url('BodoniXT.woff2') format('woff2'),
         url('BodoniXT.woff') format('woff'),
         url('BodoniXT.ttf') format('truetype');
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -42,6 +42,7 @@ div.intro    {
     width: 400px ;
     margin: auto;
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 
@@ -59,19 +60,35 @@ div.intro    {
     width: 150px;
     height: 84px;
     object-fit: contain;
+	transition: transform 0.2s; /* Animation */;
+}
+
+#image1:hover   {
+	        transform: scale(4);
 }
 
 #image2 {
     width: 150px;
     height: 84px;
     object-fit: contain;
+	transition: transform 0.2s; /* Animation */
+}
+
+#image2:hover   {
+	transform: scale(4); 
 }
 
 #image3 {
     width: 150px;
     height: 84px;
     object-fit: contain;
+	transition: transform 0.2s; /* Animation */
 }
+
+#image3:hover   {
+	        transform: scale(4);
+}
+
 
 .Data_table {
     background-color: #B9FFDA;
