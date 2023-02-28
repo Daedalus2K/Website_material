@@ -10,7 +10,7 @@
 h1  {
     text-align: center;
     color:#605245;
-    margin: auto
+    margin: auto;
 }
 
 #bkgrd-header   {
@@ -33,10 +33,8 @@ body    {
 }
 
 
-div.intro    {
-    border-color: #B9FFFD;
-    border-style: ridge;
-    border-width: 3px;
+div#intro    {
+    border: 3px ridge #B9FFFD;
     background: white;
     text-align: center;
     width: 400px ;
@@ -46,10 +44,10 @@ div.intro    {
 }
 
 
-.Image_Block {
+#Image_Block {
+    border: 3px ridge #B9FFFD;
     text-align: center;
     background: white;
-    border: 1px solid #BBFFB9;
     max-width: max-content;
     padding: 15px;
     margin: auto;
@@ -104,11 +102,15 @@ th, td  {
     border: 2px solid #FFB9DE;
 }
 
-footer  {
-    background-color: #FFF6ED;
+#footer  {
     position: fixed;
     bottom: 0px;
     right: 0px;
     height: 40px;
     margin: 10px;
+    color: #806D5C;
+}
+
+#footer:hover   {
+    color: black;
 }
