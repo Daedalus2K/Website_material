@@ -17,16 +17,41 @@ function mouseOut() {
 
 //Image Box
 document.getElementById("Image_Block").addEventListener("mouseover", mouseOver1);
-document.getElementById("Image_Block").addEventListener("mouseout", mouseOut2);
+document.getElementById("Image_Block").addEventListener("mouseout", mouseOut1);
       
 function mouseOver1() {
   document.getElementById("Image_Block").style.borderColor = "#FDB9FF";
 }
       
-function mouseOut2() {
+function mouseOut1() {
   document.getElementById("Image_Block").style.borderColor = "#B9FFFD";
+}
+
+//Header (unfinished)
+const header = document.getElementsByTagName("h1");
+
+header[0].addEventListener("mouseover", mouseOver2);
+
+header[0].addEventListener("mouseout", mouseOut2);
+
+
+function mouseOver2() {
+  document.header[0].style.color = "#B9FFFD";
+}
+      
+function mouseOut2() {
+  document.header[0].style.color = "#605245";
 }
 
 
 
 
+//Experimentation (put 2 functions in one and use String() )
+/*function webInteraction() {
+  function name(params) {
+    
+  };
+}
+const collection = document.getElementsByTagName("h1");
+document.getElementById("bkgrd-header").innerHTML = collection[1].innerHTML;
+*/
