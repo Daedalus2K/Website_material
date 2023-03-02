@@ -13,6 +13,10 @@ h1  {
     margin: auto;
 }
 
+h1:hover    {
+    color:#B9FFFD;
+}
+
 #bkgrd-header   {
     width: 100%;
     height: 40px;
