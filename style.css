@@ -1,8 +1,12 @@
 @font-face {
-    font-family: 'BodoniXT';
-    src: url('BodoniXT.woff2') format('woff2'),
-        url('BodoniXT.woff') format('woff'),
-        url('BodoniXT.ttf') format('truetype');
+    font-family: 'Imperator';
+    src: url('./fonts/Imperator.ttf') format('truetype');
+    src: url('./fonts/Imperator\ Bold.ttf') format('truetype');
+    src: url('./fonts/ImperatorBronze.ttf') format('truetype');
+    src: url('./fonts/ImperatorBronzeSmallCaps.ttf') format('truetype');
+    src: url('./fonts/ImperatorPlaque.ttf') format('truetype');
+    src: url('./fonts/ImperatorSmallCaps.ttf') format('truetype');
+    src: url('./fonts/ImperatorSmallCaps\ Bold.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -33,7 +37,7 @@ header  {
 
 body    {
     background: #ffdab9;
-     font-family: "BodoniXT"; 
+     font-family: "ImperatorBronze"; 
 }
 
 
