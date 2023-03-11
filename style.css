@@ -59,7 +59,7 @@ div#intro    {
     background: white;
     max-width: max-content;
     padding: 10px;
-    margin: auto;
+    margin: inherit;
     margin-bottom: 10px;
 }
 
